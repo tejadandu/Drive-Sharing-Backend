@@ -15,6 +15,10 @@ app.get('/api/v1/get', (request, response) => {
 });
 
 app.listen(PORT, async () => {
-    console.log(`Server for drive-sharing is Up ${3000}`);
+    console.log(`Server for drive-sharing is Up ${PORT}`);
+    // await db.sync({ alter: true });
     console.log('DB Connected');
 });
+
+
+
