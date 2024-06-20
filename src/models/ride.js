@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../config/db_config');
 
-const Ride = db.define('Ride', {
+const Ride = db.define('ride', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
